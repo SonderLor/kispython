@@ -116,7 +116,7 @@ def draw(pic, canvas):
 
 
 def main():
-    pic = Path('data/PIC.2').read_bytes()
+    pic = Path('data/PIC.1').read_bytes()
     canvas = tk.Canvas(width=160 * SCALE_X, height=170 * SCALE_Y)
     canvas.pack()
     draw(pic, canvas)

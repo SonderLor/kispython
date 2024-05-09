@@ -1,4 +1,5 @@
 import inspect
+import matplotlib
 import example
 
 
@@ -33,4 +34,4 @@ def create_doc(module):
 
 
 if __name__ == "__main__":
-    create_doc(example)
+    create_doc(matplotlib)
